@@ -137,3 +137,30 @@ footer {
     color: var(--font);
     font-size: xx-small;
 }
+
+.image2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 10px solid var(--text);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+    object-fit: cover; 
+}
+
+.image2:hover {
+    cursor: pointer;  
+    transform: scale(1.1); 
+}
+
+.projects {
+    display: flex;
+    justify-content: center; /* Centers the projects horizontally */
+    align-items: center; /* Aligns items vertically */
+    gap: 30px; /* Adds space between projects */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
